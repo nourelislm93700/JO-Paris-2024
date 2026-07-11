@@ -1,0 +1,374 @@
+/* Styles CSS */
+.coloredLink
+{
+	color: rgb(110, 110, 214);
+	/* Couleur du texte du lien */
+	text-decoration: none;
+	/* Supprimer le soulignement par défaut du lien */
+}
+#logo
+{
+    border-radius: 150px;
+    border : black solid 2px;
+    margin-left: 45px;
+    transition : 1s;
+
+    
+}
+#logo:hover
+{
+    rotate: 359deg;
+    scale: 1.5;
+    
+}
+#logoo
+{
+    border-radius: 150px;
+    border : black solid 2px;
+    margin-left: 45px;
+    transition : 1s;
+	margin-top: 20px;
+
+    
+}
+#logoo:hover
+{
+    rotate: 359deg;
+    scale: 1.5;
+    
+}
+.p1{
+	border-radius: 15px;
+    border : black solid 1px;
+    width: 650px;
+    height: 40px;
+    background-color: rgba(174, 174, 174, 0.735);
+    text-align: center;
+    transition: 1.2s ease;
+    margin-top: 3px;
+    padding-top: 7px;
+
+}
+a{
+	text-decoration: none;
+	color : black;
+}
+.p2{
+    border-radius: 15px;
+    border : black solid 1px;
+    width: 650px;
+    height: 80px;
+    background-color: white;
+}
+.header 
+{
+    display: flex;
+    align-items : center;
+}
+.item
+{
+    float : left;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 10px;;
+    padding-bottom: 10px;
+    list-style: none;
+    border-radius: 15px;
+    border : black solid 1px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 5px;
+    cursor : pointer;
+	color: black;
+
+}
+@keyframes titro
+{
+    0%
+    {
+        translate: 0px;
+
+    }
+    50%
+    {
+        translate: 10px;
+    }
+    100%
+    {
+        translate: 0px;
+    }
+}
+.titre
+{
+   
+    margin-left: 40px;
+    border: black solid 1px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+    width : 350px;
+    height: 50px;
+    animation : titro 5s infinite ;
+
+
+}
+.menu
+{
+    float : left;
+    height: 40px;
+    width: auto;
+    padding-left: 1px;
+
+}
+.item:hover
+{
+    background-color: aquamarine;
+    transition: 0.5s ease;
+    scale : 1.05;
+}
+
+/* Pour changer la couleur lorsque le lien est survolé */
+.coloredLink:hover
+{
+	color: rgb(0, 217, 255);
+	/* Nouvelle couleur lors du survol */
+}
+
+@keyframes dance
+{
+	0%
+	{
+		transform: translateX(-2px);
+	}
+
+	50%
+	{
+		transform: translateX(2px);
+	}
+
+	100%
+	{
+		transform: translateX(-2px);
+	}
+}
+
+.dancingText
+{
+	animation: dance 1s infinite;
+}
+
+.feedbackButton
+{
+	padding: 5px 5px;
+	margin: 5px;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#satisfiedButton
+{
+	background-color: rgba(3, 186, 0, 0.598);
+	color: white;
+	padding : 20px;
+	border: 1px black solid;
+	width : 50%;
+	border-radius: 15px;
+	transition: 1.2s;
+	cursor: pointer;
+
+
+}
+
+#moderatelySatisfiedButton
+{
+	background-color: rgba(238, 255, 0, 0.571);
+	padding : 20px;
+	border: 1px black solid;
+	width : 50%;
+	border-radius: 15px ;
+	transition: 1.2s;
+	cursor: pointer;
+
+
+}
+button
+{
+	cursor: pointer;
+	transition: 1.2s;
+}
+button:hover{
+	background-color: aliceblue;
+}
+
+#notSatisfiedButton
+{
+	background-color: rgba(255, 0, 0, 0.416);
+	color: white;
+	padding : 20px;
+	border: 1px black solid;
+	width : 50%;
+	border-radius: 15px ;
+	transition: 1.2s;
+	cursor: pointer;
+
+}
+#notSatisfiedButton:hover,#moderatelySatisfiedButton:hover,#satisfiedButton:hover{
+	background-color: azure;
+}
+
+/* Ajoutez des styles CSS au besoin */
+body
+{
+	
+	justify-content: left;
+	font-family: "Century Gothic" , Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+/* Ajoutez d'autres styles CSS au besoin */
+/* Styles pour les questions */
+.question h3
+{
+	color: #666;
+	/* Couleur gris foncé */
+}
+
+/* Ajoutez d'autres styles CSS au besoin */
+.container
+{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.question
+{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.reponse
+{
+	display: none;
+}
+
+/* Ajoutez des styles CSS au besoin */
+.container
+{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.question
+{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.reponse
+{
+	display: none;
+}
+
+body
+{
+	background-image: url(img6.png);
+	background-size: cover;
+	/* Ajuste la taille de l'image pour couvrir tout l'écran */
+	background-position: center;
+	/* Centre l'image */
+	/* Ajoutez d'autres styles CSS au besoin */
+}
+
+/* Ajoutez des styles CSS au besoin */
+input[type="text"],input[type="email"]
+{
+	width: 300px;
+	/* Largeur désirée */
+	/* Ajoutez d'autres styles CSS au besoin */
+}
+
+/* Autres styles CSS */
+.large-textarea
+{
+	width: 250px;
+	/* Largeur désirée */
+	height: 150px;
+	/* Hauteur désirée */
+	/* Ajoutez d'autres styles CSS au besoin */
+}
+
+.info-message
+{
+	cursor: help;
+	/* Change le curseur au survol */
+}
+/* Styles pour le pied de page */
+
+
+footer
+{
+    background-color: rgb(255, 255, 255);
+    width : 93%;
+    border : black 2px solid;
+    border-radius: 25px;
+
+    margin-top: 20px;
+    text-align: center;
+    padding : 15px;
+    align-items: center;
+    
+    justify-content: center;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+
+/* Autres styles pour les éléments à l'intérieur des sections */
+.monument-images {
+    display: flex;
+    justify-content: center; /* Centrer les images horizontalement */
+}
+
+.monument-images img {
+    width: 150px; /* Taille des images */
+    height: 160px;
+    margin: 0 15px; /* Espacement horizontal entre les images */
+   
+    padding : 5px;
+}
+.footy
+{
+    display: flex;
+    justify-content: center;
+
+}
+.monument-imagess img {
+    width: 180px; 
+    height: auto;
+    margin: 0 15px; 
+    margin-bottom: 5px;
+}
+
+#bpce
+{
+    padding-bottom: 15px;
+}
+#ratp
+{
+    width : 100px;
+    height: 120px;
+    padding-top: 20px;
+}
+#orange
+{
+    width : 200px;
+}
+

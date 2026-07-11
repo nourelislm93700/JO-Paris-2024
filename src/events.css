@@ -1,0 +1,336 @@
+body
+{
+    background-image:url(img7.png);
+    font-family: "Century Gothic" , Arial, Helvetica, sans-serif;
+}
+#logoo
+{
+    border-radius: 150px;
+    border : black solid 2px;
+    margin-left: 45px;
+    transition : 1.3s;
+    margin-top: 20px;
+
+    
+}
+#logoo:hover
+{
+    rotate: 359deg;
+    scale: 1.5;
+
+    
+}
+#buttonr:hover
+{
+  background-color: aquamarine;
+  scale: 1.02;
+}
+#buttonr
+{
+    border: black solid 1px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50%;
+   
+   
+
+    width : 150px;
+    height: 40px;
+    transition : 1s ease;
+    cursor : pointer;
+  
+   
+    
+}
+.item
+{
+    float : left;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 10px;;
+    padding-bottom: 10px;
+    list-style: none;
+    border-radius: 15px;
+    border : black solid 1px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 5px;
+    cursor : pointer;
+
+}
+.titre
+{
+   
+    margin-left: 40px;
+    border: black solid 1px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+    width : 350px;
+    height: 50px;
+    animation : titro 5s infinite ;
+
+
+}
+@keyframes france 
+{
+    0%
+    {
+        translate : 0px 0px;
+    }
+  
+    50%
+    {
+        translate : 0px -180px
+    }
+    100%
+    {
+        translate : 0px 0px
+    }
+}
+.header 
+{
+    display: flex;
+    align-items : center;
+}
+.menu
+{
+  float : left;
+  height: 40px;
+  width: auto;
+  padding-left: 1px;
+
+}
+.item:hover
+{
+    background-color: aquamarine;
+    transition: 0.5s ease;
+    scale : 1.05;
+}
+#logo
+{
+    border-radius: 150px;
+    border : black solid 2px;
+    margin-left: 45px;
+    transition : 1s;
+
+    
+}
+#logo:hover
+{
+    rotate: 359deg;
+    scale: 1.5;
+    
+}
+fieldset
+{
+  border-radius: 15px;
+  border : black solid 1px;
+  background-color: aliceblue;
+  margin-left: 5px;
+  cursor : pointer;
+  margin-top: 15px;
+  transition : 1.2s ease;
+}
+fieldset:hover
+{
+  background-color: aquamarine;
+  scale: 1.005;
+}
+#f1:hover    
+{
+  background-color: rgb(252, 252, 252);
+  scale: 1.005;
+}
+
+img
+{
+    border-radius: 15px;
+    border : black solid 1px;
+}
+iframe
+{
+    border-radius: 15px;
+    border : black solid 1px;  
+}
+a
+{
+    text-decoration: none;
+    color : black;
+    
+}
+th,td
+{
+    border-radius: 15px;
+    border : black solid 1px; 
+    width:100%;
+    margin-top: 5px;;
+    text-align: left;
+    padding: 10px;;
+
+    
+    
+}
+tr
+{
+    margin-top: 2px;
+}
+td:hover,th:hover
+{
+    background-color: rgb(121, 121, 121);
+    transition : 1.2s;
+}
+footer
+{
+    background-color: white;
+    width : 150px;
+    border : black 1px solid;
+    border-radius: 5px;
+    width : 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Styles pour le pied de page */
+
+
+footer
+{
+    background-color: rgb(255, 255, 255);
+    width : 93%;
+    border : black 2px solid;
+    border-radius: 25px;
+
+    margin-top: 20px;
+    text-align: center;
+    padding : 15px;
+    align-items: center;
+    
+    justify-content: center;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+
+/* Autres styles pour les éléments à l'intérieur des sections */
+.monument-images {
+    display: flex;
+    justify-content: center; /* Centrer les images horizontalement */
+}
+
+.monument-images img {
+    width: 150px; /* Taille des images */
+    height: 160px;
+    margin: 0 15px; /* Espacement horizontal entre les images */
+   
+    padding : 5px;
+}
+.footy
+{
+    display: flex;
+    justify-content: center;
+
+}
+.monument-imagess img {
+    width: 180px; 
+    height: auto;
+    margin: 0 15px; 
+    margin-bottom: 5px;
+}
+
+#bpce
+{
+    padding-bottom: 15px;
+}
+#ratp
+{
+    width : 100px;
+    height: 120px;
+    padding-top: 20px;
+}
+#orange
+{
+    width : 200px;
+}
+
+    
+
+#tab1{
+    padding : 25px;
+    height: auto;
+    margin-bottom: 60px;
+    text-align: center;
+   
+    border : 2px black solid;
+    border-radius: 20px;
+  
+   
+}
+@keyframes titro
+{
+    0%
+    {
+        translate: 0px;
+
+    }
+    50%
+    {
+        translate: 10px;
+    }
+    100%
+    {
+        translate: 0px;
+    }
+}
+
+.th1
+{
+    text-align: center;
+    margin-left: 50px;
+    padding-right : 55px;
+    padding-left: 55px;
+    
+}
+.tr1
+{    
+padding-bottom: 40px;
+}
+a:hover 
+{
+    color :rgb(57, 187, 243);
+}
+/* Styles pour le pied de page */
+
+
+footer
+{
+    background-color: rgb(255, 255, 255);
+    width : 93%;
+    border : black 2px solid;
+    border-radius: 25px;
+
+    margin-top: 20px;
+    text-align: center;
+    padding : 15px;
+    align-items: center;
+    
+    justify-content: center;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+a:hover 
+{
+    color :rgb(57, 187, 243);
+}
+  

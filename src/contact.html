@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactez-nous</title>
+  <link rel="web icon" type="jpg" href="logoJO.jpg" >
+
+  <link rel="stylesheet" href="contact.css">
+ 
+</head>
+<body>
+  <div class="header">
+    <img  alt="logo" id="logoo" src="logoJO.jpg" width="10%" height="7.5%" >
+
+    <h1 class="titre" > My Paris World 2024 ! </h1>
+    </div>
+    <br>
+    <div>
+        <ul class="menu">
+            <a href="Projet web.html"><li class="item"> Accueil </li></a>
+            <a href="Evénements.html" ><li class="item" id="i1"> Evénement </li></a>
+            <a href="paris.html"><li class="item" onmouseover="playSoundParis()"> Paris </li>
+            <a href="Transport.html"> <li class="item"> Tranport </li></a>
+          
+            <a href="contact.html"> <li class="item"> Contacter </li></a>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+  
+  <div class="container">
+    <h1>Contactez-nous</h1>
+    <p>Nous sommes là pour vous aider ! Si vous avez des questions, des préoccupations ou des problèmes, n'hésitez pas à nous contacter en remplissant le formulaire ci-dessous.</p>
+    <h1>Questions fréquentes</h1>
+    <!-- Liste des questions et réponses -->
+
+    <div class="faq">
+      <div class="question" onclick="toggleReponse('reponse1')">
+        <h3>Quels sont les meilleurs moyens de transport pour se déplacer à Paris pendant les Jeux Olympiques 2024 ?</h3>
+        <div class="reponse" id="reponse1">
+          <p>→ Pendant les Jeux Olympiques 2024, les visiteurs peuvent utiliser efficacement le métro, le RER (Réseau Express Régional), les bus et les tramways pour se déplacer dans toute la ville. Ces options offrent un accès facile aux sites olympiques ainsi qu'aux principales attractions touristiques de Paris.</p>
+        </div>
+      </div>
+
+      <div class="question" onclick="toggleReponse('reponse2')">
+        <h3>Quels sont les sites touristiques les plus populaires à visiter pendant les Jeux Olympiques 2024 ?</h3>
+        <div class="reponse" id="reponse2">
+          <p>→ Les sites touristiques les plus populaires à visiter pendant les Jeux Olympiques 2024 incluent la Tour Eiffel, le Louvre, la cathédrale Notre-Dame, le Musée d'Orsay, Montmartre, le quartier du Marais, les Champs-Élysées et bien d'autres.</p>
+        </div>
+      </div>
+
+      <div class="question" onclick="toggleReponse('reponse3')">
+        <h3>Quels sont les horaires d'ouverture des principaux sites touristiques pendant les Jeux Olympiques 2024 ?</h3>
+        <div class="reponse" id="reponse3">
+          <p>→ Les horaires d'ouverture des principaux sites touristiques de Paris peuvent varier pendant les Jeux Olympiques 2024. Il est recommandé de consulter les sites web officiels de chaque attraction ou de contacter directement les sites pour obtenir les horaires les plus récents.</p>
+        </div>
+      </div>
+
+      <div class="question" onclick="toggleReponse('reponse4')">
+        <h3>Y aura-t-il des événements spéciaux ou des festivités à Paris pendant les Jeux Olympiques 2024 ?</h3>
+        <div class="reponse" id="reponse4">
+          <p>→ Oui, pendant les Jeux Olympiques 2024, Paris accueillera de nombreux événements spéciaux, festivals et activités culturelles pour célébrer l'occasion. Ces événements peuvent inclure des concerts, des expositions artistiques, des spectacles de rue, des feux d'artifice et bien plus encore.</p>
+        </div>
+      </div>
+
+      <div class="question" onclick="toggleReponse('reponse5')">
+        <h3>Comment obtenir des billets pour les événements olympiques et les attractions touristiques pendant les Jeux Olympiques 2024 ?</h3>
+        <div class="reponse" id="reponse5">
+          <p>→ Pour obtenir des billets pour les événements olympiques, il est recommandé de visiter le site officiel des Jeux Olympiques 2024
+            <a href="https://parisjetaime.com/convention/article/billetterie-a1314" class="coloredLink">Site Officiel</a>ou de contacter les points de vente autorisés. Pour les attractions touristiques, les billets peuvent être achetés en ligne sur les sites officiels ou directement sur place, en fonction de la disponibilité.</p>
+        </div>
+      </div>
+
+      <div class="question" onclick="toggleReponse('reponse6')">
+        <h3>Vous voulez acheter des tickets mais la borne ne fonctionne pas ?</h3>
+        <div class="reponse" id="reponse6">
+          <p>→ Dirigez-vous vers l’accueil.</p>
+        </div>
+      </div>
+      
+      <div class="question" onclick="toggleReponse('reponse7')">
+        <h3>Les lignes de métro sont-elles accessibles pour les personnes à mobilité réduite ?</h3>
+        <div class="reponse" id="reponse7">
+          <p>→ Oui, Pour les personnes à mobilité réduite qui ont besoin d'assistance pour utiliser le métro, la RATP propose un service d'assistance appelé "Accès Plus"..</p>
+        </div>
+      </div>
+      <!-- Ajoutez d'autres questions et réponses au besoin -->
+    </div>
+
+    <p class="dancingText">Si vous ne trouvez pas la réponse à votre question, n'hésitez pas à nous contacter en utilisant le formulaire ci-dessous :</p>
+    <!-- Section "Identifiez-vous" -->
+
+    <section id="identification">
+      <h2>Identifiez-vous</h2>
+      <form action="traitement.php" method="post">
+        <label for="nom" class="info-message" onmouseover="defilerMessages('nom')">Nom :</label>
+        <input class="p1" type="text" id="nom" name="nom" required>
+        <br>
+        <br>
+        <label for="email" class="info-message" onmouseover="defilerMessages('email')">Email :</label>
+        <input class="p1" type="email" id="email" name="email" required>
+      </form>
+    </section>
+    <!-- Section "Décrivez votre problème" -->
+
+    <section id="probleme">
+      <h2>Décrivez votre problème</h2>
+      <form action="traitement.php" method="post">
+        <label for="probleme">Votre problème :</label>
+        <textarea id="probleme" name="probleme" class="p2" required>
+        </textarea>
+        <br>
+        <button class="p1" type="submit">Envoyer</button>
+      </form>
+    </section>
+  </div>
+
+  <div class="container">
+    <p>Êtes-vous satisfait ?</p>
+    <div id="feedbackButtons">
+      <button id="satisfiedButton" class="feedbackButton" onclick="sendFeedback('satisfait')">Satisfait ❤️</button>
+      <button id="moderatelySatisfiedButton" class="feedbackButton" onclick="sendFeedback('moyennement satisfait')">Moyennement satisfait 😐</button>
+      
+      <button id="notSatisfiedButton" class="feedbackButton" onclick="sendFeedback('pas satisfait')">Pas satisfait du tout ☹️</button>
+      
+    </div>
+    <div id="thankYouMessage" style="display: none;">Merci pour votre réponse !</div>
+  </div>
+
+ <h2 class="titre"> <a href="avis.html">Donnez-nous votre avis 🙂</a> </h2>
+ <br>
+ <footer>
+  <div class="monument-images">
+ 
+    <img src="img20.png" alt="Monument 1">
+    <img id="orange" src="img21.png" alt="Monument 2">
+    <img id="ratp" src="img24.png" alt="Monument 1">
+  </div>
+  <div class="monument-imagess" >
+    <img id="bpce" src="img23.png" alt="Monument 1">
+    <img src="img25.png" alt="Monument 1">
+    <img src="img26.png" alt="Monument 1">
+    
+  </div>
+  <br>
+
+
+    
+
+
+<p id="p2"><strong>© 2024 Paris Guide Touristique</strong></p>
+
+</footer>
+<script src="projet.js"> </script>
+
+</script>
+</body>
+</html>

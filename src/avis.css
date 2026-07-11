@@ -1,0 +1,181 @@
+.container 
+{
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+        
+body {
+    font-family: "Century Gothic" , Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img6.png);
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    /* Ajoutez d'autres styles CSS au besoin */
+    }
+        
+#logo
+{
+    border-radius: 150px;
+    border : black solid 2px;
+    margin-left: 45px;
+    transition : 1s;
+
+    
+}
+#logo:hover
+{
+    rotate: 359deg;
+    scale: 1.5;
+    
+}
+#logoo
+{
+    border-radius: 150px;
+    border : black solid 2px;
+    margin-left: 45px;
+    transition : 1s;
+
+    
+}
+#logoo:hover
+{
+    rotate: 359deg;
+    scale: 1.5;
+    
+}
+.header 
+{
+    display: flex;
+    align-items : center;
+}
+.header 
+{
+    display: flex;
+    align-items : center;
+}
+.item
+{
+    float : left;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 10px;;
+    padding-bottom: 10px;
+    list-style: none;
+    border-radius: 15px;
+    border : black solid 1px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 5px;
+    cursor : pointer;
+	color: black;
+    margin-top: 20px;
+
+}
+@keyframes titro
+{
+    0%
+    {
+        translate: 0px;
+
+    }
+    50%
+    {
+        translate: 10px;
+    }
+    100%
+    {
+        translate: 0px;
+    }
+}
+.titre
+{
+   
+    margin-left: 40px;
+    border: black solid 1px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+    width : 350px;
+    height: 50px;
+    animation : titro 5s infinite ;
+
+
+}
+.menu
+{
+    float : left;
+    height: 40px;
+    width: auto;
+    padding-left: 1px;
+
+}
+.item:hover
+{
+    background-color: aquamarine;
+    transition: 0.5s ease;
+    scale : 1.05;
+}
+
+/* Styles pour le pied de page */
+
+
+footer
+{
+    background-color: rgb(255, 255, 255);
+    width : 93%;
+    border : black 2px solid;
+    border-radius: 25px;
+
+    margin-top: 20px;
+    text-align: center;
+    padding : 15px;
+    align-items: center;
+    
+    justify-content: center;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+
+/* Autres styles pour les éléments à l'intérieur des sections */
+.monument-images {
+    display: flex;
+    justify-content: center; /* Centrer les images horizontalement */
+}
+
+.monument-images img {
+    width: 150px; /* Taille des images */
+    height: 160px;
+    margin: 0 15px; /* Espacement horizontal entre les images */
+   
+    padding : 5px;
+}
+.footy
+{
+    display: flex;
+    justify-content: center;
+
+}
+.monument-imagess img {
+    width: 180px; 
+    height: auto;
+    margin: 0 15px; 
+    margin-bottom: 5px;
+}
+
+
+
+    
+
+
+
+a:hover 
+{
+    color :rgb(57, 187, 243);
+}
+  
+   
