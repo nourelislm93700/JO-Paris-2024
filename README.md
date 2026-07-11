@@ -1,6 +1,9 @@
 # My Paris World 2024 - Guide touristique JO Paris 2024
 
 Site web statique (HTML/CSS/JS) présentant un guide touristique de Paris à l'occasion des Jeux Olympiques 2024 : sites à découvrir, restaurants, activités, calendrier des épreuves, transports et un formulaire de contact/avis.
+Ce projet a été réalisé avant que j’apprenne à utiliser correctement les fonctionnalités de GitHub.
+Les fichiers sont donc tous regroupés dans un seul dossier, sans structure particulière.
+Aucun réagencement n’a été effectué par la suite, afin de préserver l’esprit d’origine du projet et de respecter l’évaluation des compétences de programmation telles qu’elles ont été développées à l’époque.
 
 ## Pages du site
 
@@ -28,7 +31,7 @@ src/
 ├── img*.png / img*.jpg                 # Photos des sites touristiques, restaurants, activités
 ├── metro*.png, ligne*.png, navigo*.png # Visuels transport (métro, lignes, Pass Navigo)
 ├── map.png, map1.png, map2.png         # Cartes de Paris
-└── *.mp3                               # Sons d'ambiance et guides audio (greedy.mp3, audioNav*, navigo*, paris.mp3, étoile.mp3)
+└── *.mp3                               # Sons d'ambiance et guides audio (greedy.mp3, audioNav*, navigo*, paris.mp3, étoile.mp3) , pour les stations de métro , info tickets ..
 ```
 
 ## Fonctionnalités
