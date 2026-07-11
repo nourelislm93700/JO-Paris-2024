@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="web icon" type="jpg" href="metro7.png" >
+    <link rel="stylesheet" type="text/css" href="projet.css" >
+    <style>
+        body
+        {
+            background-image: url(img8.png);
+            
+        }
+    </style>
+
+    <title> Transport </title>
+</head>
+<body>
+    <audio id="v1"><source src="voix1.mp3"></audio>
+    <audio id="v2"><source src="voix2.mp3"></audio>
+    <audio id="v3"><source src="voix3.mp3"></audio>
+    <audio id="v4"><source src="voix4.mp3"></audio>
+    <audio id="v5"><source src="voix5.mp3"></audio>
+    <audio id="v6"><source src="voix6.mp3"></audio>
+    <audio id="v7"><source src="voix7.mp3"></audio>
+    <audio id="v8"><source src="voix8.mp3"></audio>
+    <audio id="v9"><source src="voix9.mp3"></audio>
+    <audio id="v10"><source src="voix10.mp3"></audio>
+    <audio id="v11"><source src="voix11.mp3"></audio>
+    <audio id="v12"><source src="voix12.mp3"></audio>
+    <audio id="v7b"><source src="voix7bis.mp3"></audio>
+    <audio id="v3b"><source src="voix3bis.mp3"></audio>
+    <audio id="v13"><source src="voix13.mp3"></audio>
+    <audio id="v14"><source src="voix14.mp3"></audio>
+
+
+    <div class="header">
+        <img  alt="logo" id="logoo" src="logoJO.jpg" width="10%" height="7.5%" >
+    
+        <h1 class="titre" > My Paris World 2024 ! </h1>
+        </div>
+        <br>
+        <div>
+            <ul class="menu">
+                <a href="Projet web.html"><li class="item"> Accueil </li></a>
+                <a href="Evénements.html" ><li class="item" id="i1"> Evénement </li></a>
+                <a href="paris.html"><li class="item" onmouseover="playSoundParis()"> Paris </li>
+                <a href="Transport.html"> <li class="item"> Tranport </li></a>
+              
+                <a href="contact.html"> <li class="item"> Contacter </li></a>
+            </ul>
+        </div>
+    <div id ="introduction" >
+    <h1 class="transportitre"> Transport de la ville de Paris et la région Parisienne </h1>
+    <fieldset id="text1">
+        <h3> Pour circuler dans Paris et ses environs pendant les Jeux Olympiques, la Société des Transports en Île-de-France (Île-de-France Mobilités), la SNCF, Transilien et la RATP proposent différents moyens de transport : métro, RER, train, bus et tramway.
+Il est important de toujours voyager dans le respect des règles et surtout de ne pas frauder 😉! Pour cela, il est essentiel de suivre les étapes suivantes :</h3>
+            <ul start="1" >
+                <li> <h3> Je précise ma destination.</h3></li>
+                <li> <h3> Je choisis le moyen de transport le plus adapté. </h3></li>
+                <li> <h3> J'achète les bons tickets pour arriver à ma destination en fonction du moyen de transport que je veux prendre !</h3> </li>
+            </ul>
+        <h3> <b>Métro</b> : Le métro de Paris est l'un des systèmes de transport en commun les plus étendus et les plus efficaces au monde. Il compte environ 16 lignes qui desservent la ville et ses banlieues, reliant les principaux quartiers et sites touristiques. </h3>
+        <br>
+        
+        <h3> <b>RER</b> : Le RER est un réseau de trains suburbains qui relie Paris à sa périphérie. Il compte plusieurs lignes traversant la ville et permettant de se rendre rapidement dans les banlieues et les zones périphériques.</h3>
+        <br>
+        
+        <h3> <b>Transilein </b> : Transilien est un réseau de trains de banlieue desservant la région Île-de-France ainsi que certaines régions avoisinantes offre des liaisons ferroviaires rapides et fréquentes entre Paris et ses banlieues, ainsi que vers d'autres villes importantes de la région. Le réseau Transilien comprend plusieurs lignes, chacune portant une lettre et desservant différents axes autour de Paris </h3>
+
+    </fieldset>
+    <br>
+    <br>
+    <h1 class="transportitre"> j'achète quel ticket ! 🤨 </h1>
+    <br>
+    <audio id="audioNav1"> <source src="navigo1.mp3" type="audio/mp3"></audio>
+    <audio id="audioNav2"> <source src="navigo2.mp3" type="audio/mp3"></audio>
+    <audio id="audioNav3"> <source src="navigo3.mp3" type="audio/mp3"></audio>
+    <audio id="audioNav4"> <source src="audioNav4.mp3" type="audio/mp3"></audio>
+    <audio id="audioNav5"> <source src="audioNav5.mp3" type="audio/mp3"></audio>
+    <audio id="audioNav6"> <source src="audioNav6.mp3" type="audio/mp3"></audio>
+    <audio id="audioNav7"> <source src="audioNav7.mp3" type="audio/mp3"></audio>
+    <audio id="audioNav8"> <source src="audioNav8.mp3" type="audio/mp3"></audio>
+
+
+    <div id="table1" >
+    <table>
+        <tr>
+            <th id="t1" onclick="option() , playSoundNav1() " ><h3 > Je reste une ou quelques semaines/mois dans Paris </h3></th>
+            <th id="t2" onclick="option1() , playSoundNav2() "><h3 > Je reste quelques jours dans Paris </h3></th>
+            <th id="t3" onclick="option3() , playSoundNav3() "><h3 > Je n'aurai que quelques petits trajets à faire sur la ville  ! </h3></th>
+        </tr>
+        <tr>
+            <th id="t4" onclick="option4(), playSoundNav4()" style="text-align: center;">
+                <h3> Je vais voyager depuis/vers l'aéroport de Paris Orly/CDG </h3>
+            </th>
+            <th id="t5" onclick="option5(), playSoundNav5()" style="text-align: center;">
+                <h3> Je vais voyager dans les banlieues de Paris </h3>
+            </th>
+            <th id="t6" onclick="option6(), playSoundNav6()" style="text-align: center;">
+                <h3> Je profite d'un séjour à la découverte des monuments parisiens ! </h3>
+            </th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    </div>
+    </div>
+
+    <br>
+    <div class="metro"  >
+        <h1 id="titrem" > Métro  </h1>
+    <audio id="audio"> <source src="étoile.mp3" type="audio/mp3"></audio>
+    <div id="metroa"  > 
+        <img class="m" alt="m1" src="metro1.png" width="10%" onclick="voix1()" >
+        <img class="m" alt="m2" src="metro2.png" width="10%"  onclick="voix2()">
+        <img class="m" alt="m3" src="metro3.png" width="10%"  onclick="voix3()">
+        <img class="m" alt="m3b" src="metro3b.png" width="10%" onclick="voix3b()">
+        <img class="m" alt="m4" src="metro4.png" width="10%"  onclick="voix4()">
+        <img class="m" alt="m5" src="metro5.png" width="10%"  onclick="voix5()">
+        <img class="m" alt="m6" src="metro6.png" width="10%" id="m6" onclick="voix6()" >
+        <div class="mon_text"> <h2>Charles de gaulle étoile </h2> </div>
+
+        <img class="m" alt="m7" src="metro7.png" width="10%" onclick="voix7()"  >
+    </div>
+   
+    <div class="metrob" > 
+        <img class="m" alt="m7b" src="metro7b.png" width="10%" onclick="voix7b()">
+        <img class="m" alt="m8" src="metro8.png" width="10%" onclick="voix8()" >
+        <img class="m" alt="m9" src="metro9.png" width="10%"  onclick="voix9()">
+        <img class="m" alt="m10" src="metro10.png" width="10%" onclick="voix10()">
+        <img class="m" alt="m11" src="metro11.png" width="10%" onclick="voix11()">
+        <img class="m" alt="m12" src="metro12.png" width="10%" onclick="voix12()" >
+        <img class="m" alt="m13" src="metro13.png" width="10%" onclick="voix13()">
+        <img class="m" alt="m14" src="metro14.png" width="10%" onclick="voix14()">
+    </div>
+    <br>
+    <br>
+    <h1 id="titrel" onclick="playSoundNav7()" > Pass de la semaine ? écoute moi !  </h1>
+    <br>
+    <h1 id="titrek" onclick="playSoundNav8()" > Tarif réduit ? clique ici !  </h1>
+    <br>
+    <br>
+  
+    </div>
+    <br>
+   
+    <h1 id="titren" > Prolongement de la ligne 14 vers Orly !  </h1>
+    <fieldset id="f4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/6v0_G_qiDPA" frameborder="0" allowfullscreen></iframe>
+
+    </fieldset>
+    <br>
+    <br>
+    <h1 id="titrer" > RER  </h1>
+    <div class="rer" > 
+        <img class="r" alt="rer-a" src="rer-a.png" width="10%" >
+        <img class="r" alt="rer-b" src="rer-b.png" width="10%"  >
+        <img class="r" alt="rer-c" src="rer-c.png" width="10%"  >
+        <img class="r" alt="rer-d" src="rer-d.png" width="10%" >
+        <img class="r" alt="rer-e" src="rer-e.png" width="10%" >
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1 id="titret" > Transilien  </h1>
+    <div class="transilien" > 
+        <img class="r" alt="H" src="ligneh.png" width="10%" >
+        <img class="r" alt="J" src="lignej.png" width="10%"  >
+        <img class="r" alt="K" src="lignek.png" width="10%"  >
+        <img class="r" alt="L" src="lignel.png" width="10%" >
+        <img class="r" alt="N" src="lignen.png" width="10%" >
+        <img class="r" alt="P" src="lignep.png" width="10%" >
+        <img class="r" alt="R" src="ligner.png" width="10%" >
+        <img class="r" alt="U" src="ligneu.png" width="10%" >
+        <img class="r" alt="V" src="lignev.png" width="10%" >
+    </div>
+    <br>
+    <h1 id="titrez" > Plan de métro / RER / Tram Paris  </h1>
+    <br>
+    <br>
+    <img  src="map1.png" alt="paris_map" width="100%" style="border:1px solid black;border-radius:45px;">
+
+    <h1 id="titree" > Plan de la région | RER - Transilien </h1>
+    <br>
+    <br>
+    <img  src="map2.png" alt="paris_map" width="100%" style="border:1px solid black;border-radius:45px;">
+    <br>
+    <a href="https://www.ratp.fr"><h1 id="titrey" > Pour plus d'information sur les horaires / ticket : ratp.fr !</h1></a>
+
+    
+    
+   <br>
+   <h2 class="titre"> <a href="avis.html">Donnez-nous votre avis 🙂</a> </h2>
+   <br>
+   
+    <footer>
+        <div class="monument-images">
+       
+          <img src="img20.png" alt="Monument 1">
+          <img id="orange" src="img21.png" alt="Monument 2">
+          <img id="ratp" src="img24.png" alt="Monument 1">
+        </div>
+        <div class="monument-imagess" >
+          <img id="bpce" src="img23.png" alt="Monument 1">
+          <img src="img25.png" alt="Monument 1">
+          <img src="img26.png" alt="Monument 1">
+          
+        </div>
+        <br>
+        <br>
+        <div class="footy" >
+          <table id="tab1" >
+              <tr> 
+                  <th> <b> A Propos</b> </th>
+                  <th> <b> Sites officiels</b> </th>
+                  <th> <b> Restons connectés </b> </th>
+              </tr>
+              
+              <tr>
+                  <td>  <a href="evenement.html">Événements</a> </td>
+                  <td> 
+                  <a href="https://www.orange.fr" target="_blank"> <img src="img21.png" alt="Orange" height="60px" style="width:80px;margin-top: 25px;"> </a> </td>
+                  <td>    <a href="https://m.facebook.com/actujeuxolympiques" target="_blank">
+                      <img src="fb.png" alt="facebook" height="45px" style="width:50px">  </a> </td>
+
+              </tr>
+              <tr>
+                  <td> <a href="paris.html">Paris</a> </td>
+                  <td> 
+                      <a href="https://www.ratp.fr" target="_blank">  <img src="img24.png" alt="ratp" height="65px" style="width:60px"> </a> </td>
+                  <td> <a href="https://www.instagram.com/jeuxolympiques?igsh=MTQ3c2xvbjhhbjcwYg==" target="_blank">
+                      <img src="insta.png" alt="instagram" height="50px" style="width:52px"> </a> </td>
+              </tr>
+                  
+              <tr>
+                  <td> <a href="transport.html">Transport</a> </td>
+                  <td> 
+                  <a href="https://www.airbnb.fr/" target="_blank" > <img src="img20.png" alt="airbnb" height="65px" style="width:60px;padding-bottom: 10px;"> </a> </td> 
+                  <td> <a href="https://x.com/jeuxolympiques?s=21" target="_blank">
+                      <img id="twit" src="twitter.png" alt="twitter" height="45px" style="width:50px;padding-top: 10px;"> </a> </td>
+              </tr>
+              
+                  <td>   <a href="contact.html">Contact</a> </td>
+          
+              <td>
+                  <a href="https://www.efd.fr" target="_blank"> <img src="img26.png" alt="edf" height="40px" style="width:60px"> </a> </td>
+                  
+
+              </tr>
+               
+
+          </table>
+        </div>
+      
+  
+          
+  
+        <p id="p2"><strong>© 2024 My Paris world - Transport </strong></p>
+
+</footer>
+    
+<script src="projet.js"></script>
+</body>
+</html>
