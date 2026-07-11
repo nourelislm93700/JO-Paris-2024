@@ -10,8 +10,9 @@ Site web statique (HTML/CSS/JS) présentant un guide touristique de Paris à l'o
 | `Evénements.html` | Guide des Jeux Olympiques de Paris 2024 : dates, lieux, épreuves, billetterie, hébergement. |
 | `contact.html` | FAQ et formulaire de contact (identification + description du problème) avec système de feedback de satisfaction. |
 | `avis.html` | Formulaire pour laisser un avis sur le site, avec sélection de département (auto-remplissage du code postal). |
+| `Transport.html` | Se déplacer à Paris pendant les JO 2024 : métro (lignes 1 à 14, 3bis, 7bis), RER/Transilien (lignes H, J, K, L, N, P, R, U, V), Pass Navigo, aéroport d'Orly, guides audio et cartes interactives. |
 
-> Le menu de navigation référence aussi `Projet web.html` (page d'accueil) et `Transport.html` (informations transport/métro/Navigo), mais ces fichiers ne sont pas présents dans ce dépôt.
+> Le menu de navigation référence aussi `Projet web.html` (page d'accueil), qui n'est pas présente dans ce dépôt.
 
 ## Structure du projet
 
@@ -21,6 +22,7 @@ src/
 ├── Evénements.html / events.css        # Calendrier et informations JO 2024
 ├── contact.html / contact.css          # FAQ et formulaire de contact
 ├── avis.html / contact.css             # Formulaire d'avis
+├── Transport.html / transport.css      # Métro, RER/Transilien, Pass Navigo, aéroports, cartes
 ├── projet.js                           # Référencé par toutes les pages (absent du dépôt)
 ├── logoJO.jpg, jeux-olympiques.png     # Logos
 ├── img*.png / img*.jpg                 # Photos des sites touristiques, restaurants, activités
@@ -55,8 +57,9 @@ Puis ouvrir `http://localhost:8000/paris.html`.
 
 ## Limites connues
 
-- `projet.js` est référencé dans les 4 pages mais absent du dépôt : les fonctions `playSoundParis()`, `greedy()`, `defilerMessages()` et `sendFeedback()` ne s'exécuteront pas tant que ce fichier n'est pas ajouté.
-- Les pages `Projet web.html` et `Transport.html`, liées depuis le menu, sont absentes du dépôt.
+- `projet.js` est référencé dans les pages mais absent du dépôt : les fonctions `playSoundParis()`, `greedy()`, `defilerMessages()` et `sendFeedback()` ne s'exécuteront pas tant que ce fichier n'est pas ajouté.
+- La page `Projet web.html`, liée depuis le menu comme page d'accueil, est absente du dépôt.
+- `twitter.png`, utilisée dans les pieds de page, est absente du dépôt.
 - Les formulaires (`contact.html`) pointent vers `traitement.php`, également absent (nécessiterait un serveur PHP pour être fonctionnel).
 - `paris.html` référence une favicon avec un chemin local Windows (`C:\Users\...`) au lieu d'un chemin relatif — à corriger pour un affichage correct hors de la machine d'origine.
 
