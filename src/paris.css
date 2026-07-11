@@ -1,0 +1,464 @@
+
+body {
+  background-image:url(img12.png);
+  font-family: "Century Gothic" , Arial, Helvetica, sans-serif;
+  
+  
+
+}
+
+.item
+{
+    float : left;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 10px;;
+    padding-bottom: 10px;
+    list-style: none;
+    border-radius: 15px;
+    border : black solid 1px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 5px;
+    cursor : pointer;
+
+}
+.menu
+{
+  margin-top: 50px;
+
+
+}
+.item:hover
+{
+    background-color: aquamarine;
+    transition: 0.5s ease;
+    scale : 1.05;
+}
+
+#decouv,#resto,#activite
+{
+border: 1px black solid;
+border-radius: 25px;
+margin-left: 5px;
+background-color: aliceblue;
+width : 150px;
+margin-bottom: 10px;;
+}
+
+#decouv:hover
+{
+  background-color: aquamarine;
+  transition: 0.5s ease;
+  scale : 1.05;
+}
+
+
+.site-touristique,.restaurant-paris, .activite-familiale  {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+display: inline-block;
+margin: 10px;
+text-align: center;
+line-height: 150px;
+color: white;
+transition: transform 0.3s ease;
+cursor : pointer;
+border : 1px black solid;
+}
+
+.site-touristique:hover 
+{
+transition : 1s;
+rotate: 90deg;
+scale : 1.2;
+}
+.restaurant-paris:hover 
+{
+transition : 1s;
+rotate: 90deg;
+scale : 1.2;
+}
+.activite-familiale:hover
+{
+  transition : 1s;
+  rotate: 90deg;
+  scale : 1.2;
+}
+
+#p1
+{
+text-align: center;
+width : 700px;
+
+}
+*{
+  margin : 0;
+}
+.bloc
+{
+  position: relative;
+  height: 100vh;
+  width : 100%;
+  overflow: hidden;
+}
+#f7
+{
+  background-color: black;
+  border : black 2px solid;
+  border-radius: 25px;
+  width : 80%;
+  margin-left: 40px;
+}
+.bloc video 
+{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top : 50%;
+  left:50%;
+  z-index: -100%;
+  
+  
+  transform : translate(-50% ,-50%);
+}
+.titre1
+{
+  
+  border: black solid 1px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: aliceblue;
+  padding : 10px;
+  width : 350px;
+  height: 30px;
+  transition : 1s ease;
+  padding-bottom: 15px;
+}
+#carte
+{
+  border: black solid 1px;
+  border-radius: 30px;
+
+  background-color: aliceblue;
+
+  width : 500px;
+ 
+  margin-bottom: 20px;
+  padding : 15px;
+  height: 400px;
+
+}
+
+.titre1:hover
+{
+scale : 1.05;
+background-color: rgb(57, 187, 243);
+cursor : pointer;
+}
+#search-box 
+{
+
+  border: black solid 1px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: aliceblue;
+
+  width : 450px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding : 15px;
+  height: 20px;
+  transition : 1s ease;
+  margin-right: 30px;
+  margin-left : 40px;
+  
+}
+#p1
+{
+  border: black solid 1px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: aliceblue;
+  transition: 1.002s ease;
+  margin-top: 150px;
+  margin-left: 40px;;
+ 
+
+}
+
+#p1:hover
+{
+background :url(paris9.mp4);
+scale : 1.1;
+cursor: pointer;
+}
+#button1
+{
+  
+  border: black solid 1px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: aliceblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ 
+
+  width : 150px;
+  height: 40px;
+  transition : 1s ease;
+  cursor : pointer;
+
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+#button1:hover
+{
+background-color: aquamarine;
+scale: 1.3;
+}
+#search-container
+{
+float: left;
+}
+#buttonr:hover
+{
+background-color: aquamarine;
+scale: 1.02;
+}
+#buttonr
+{
+border: black solid 1px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: aliceblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ 
+
+  width : 150px;
+  height: 40px;
+  transition : 1s ease;
+  cursor : pointer;
+
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+
+.item
+{
+  float : left;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-top: 10px;;
+  padding-bottom: 10px;
+  list-style: none;
+  border-radius: 15px;
+  border : black solid 1px;
+  text-align: center;
+  background-color: aliceblue;
+  margin-left: 5px;
+  cursor : pointer;
+  
+
+}
+#logos
+  {
+      border-radius: 150px;
+      border : black solid 2px;
+      margin-left: 45px;
+      transition : 1s;
+  
+      
+  }
+#logos:hover
+  {
+      rotate: 359deg;
+      scale: 1.1;
+      
+  }
+  .titre
+{
+   
+    margin-left: 40px;
+    border: black solid 1px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+    width : 350px;
+    height: 50px;
+    animation : titro 5s infinite ;
+
+
+}
+@keyframes titro
+{
+    0%
+    {
+        translate: 0px;
+
+    }
+    50%
+    {
+        translate: 10px;
+    }
+    100%
+    {
+        translate: 0px;
+    }
+}
+.header 
+{
+    display: flex;
+    align-items : center;
+}
+.papy 
+{
+    display: flex;
+    align-items : center;
+    
+}
+.titre
+{
+   
+    margin-left: 40px;
+    border: black solid 1px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+    width : 350px;
+    height: 50px;
+    animation : titro 5s infinite ;
+
+
+}
+
+@keyframes titro
+{
+    0%
+    {
+        translate: 0px;
+
+    }
+    50%
+    {
+        translate: 10px;
+    }
+    100%
+    {
+        translate: 0px;
+    }
+}
+.header 
+{
+    display: flex;
+    align-items : center;
+}
+.item:hover
+{
+  background-color: aquamarine;
+  transition: 0.5s ease;
+  scale : 1.05;
+}
+a{
+text-decoration: none;
+color: black;
+}
+
+/* Styles pour le pied de page */
+
+
+footer
+{
+    background-color: rgb(255, 255, 255);
+    width : 93%;
+    border : black 2px solid;
+    border-radius: 25px;
+
+    margin-top: 20px;
+    text-align: center;
+    padding : 15px;
+    align-items: center;
+    
+    justify-content: center;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+
+/* Autres styles pour les éléments à l'intérieur des sections */
+.monument-images {
+    display: flex;
+    justify-content: center; /* Centrer les images horizontalement */
+}
+
+.monument-images img {
+    width: 150px; /* Taille des images */
+    height: 160px;
+    margin: 0 15px; /* Espacement horizontal entre les images */
+   
+    padding : 5px;
+}
+.footy
+{
+    display: flex;
+    justify-content: center;
+
+}
+.monument-imagess img {
+    width: 180px; 
+    height: auto;
+    margin: 0 15px; 
+    margin-bottom: 5px;
+}
+
+#bpce
+{
+    padding-bottom: 15px;
+}
+#ratp
+{
+    width : 100px;
+    height: 120px;
+    padding-top: 20px;
+}
+#orange
+{
+    width : 200px;
+}
+
+
+#tab1{
+    padding : 25px;
+    height: auto;
+    margin-bottom: 60px;
+    text-align: center;
+   
+    border : 2px black solid;
+    border-radius: 20px;
+  
+   
+}
+
+th 
+{
+    text-align: center;
+    margin-left: 50px;
+    padding-right : 55px;
+    padding-left: 55px;
+    
+}
+tr
+{    
+padding-bottom: 40px;
+}
+a:hover 
+{
+    color :rgb(57, 187, 243);
+}
